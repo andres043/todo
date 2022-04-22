@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-157-15-228.compute-1.amazonaws.com:5432/d59jne0r0ipa7n
+    username: rhoxauitvnxawz
+    password: 2c55a8eb6e66cc761da5a94ee89c92c31399d2f5015206cb77138966d469e5ce
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    schemas: public
